@@ -1,6 +1,1 @@
-$( "#lancier_move" ).click(function() {
-  $( "#lancier" ).animate({
-    left: "+=500",
-  }, 5000, function() {
-  });
-});
+$("#lancier").animate({right:"200vw"}, 10000, "linear");
